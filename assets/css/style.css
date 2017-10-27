@@ -1,0 +1,49 @@
+ body {
+                -webkit-font-smoothing: antialiased;
+                font-family: 'Lato', sans-serif;
+                font-size: 90%;
+                text-align: center;
+                color:#eae4d7;
+                background-color: #054372;
+            }
+            a:link, a:visited, a:hover  {
+                color:#eae4d7;
+                text-decoration:none;
+
+            }
+
+            .m-top{
+                margin-top:50px;
+            }
+
+            ul.social li {
+                font-size:2.35em;
+                font-weight:700;
+            }
+           
+
+            footer {
+                z-index:100;
+                position:absolute;
+                bottom: 0;
+                left:0;
+                right:0;
+            }
+            footer img {
+                width:100%;
+                opacity: 0.09;
+            }
+
+            .full { background-size: 100% 100%; }
+            .cover { background-size: cover; }
+            .contain { background-size: contain; }
+
+            @media only screen and (max-width : 575px) {
+                .cols-align {
+                    text-align:center!important;
+                }
+            }
+            @keyframes fadein {
+                from { opacity: 0; }
+                to   { opacity: 1; }
+            }
